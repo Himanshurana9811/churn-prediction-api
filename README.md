@@ -49,11 +49,11 @@ Four models were trained and evaluated on the same engineered feature set; **Log
 
 | Metric | Decision Tree | Logistic Regression | Random Forest | XGBoost |
 |---|---|---|---|---|
-| Test accuracy | 0.794 | **0.812** | 0.804 | 0.793 |
-| Precision | 0.631 | 0.684 | **0.675** | 0.635 |
-| Recall | 0.540 | **0.543** | 0.505 | 0.521 |
-| F1 | 0.582 | **0.605** | 0.578 | 0.573 |
-| Overfitting gap | 0.004 | -0.003 | 0.015 | 0.037 |
+| Test accuracy | 0.782 | **0.812** | 0.804 | 0.793 |
+| Precision | 0.670 | 0.684 | **0.675** | 0.635 |
+| Recall | 0.353 | **0.543** | 0.505 | 0.521 |
+| F1 | 0.462 | **0.605** | 0.578 | 0.573 |
+| Overfitting gap | 0.009 | -0.003 | 0.015 | 0.037 |
 
 ## Feature Engineering
 
