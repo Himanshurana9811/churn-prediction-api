@@ -1,0 +1,26 @@
+artifact_path: file:c:/Users/Himanshu Rana/OneDrive/Desktop/projects/churn-prediction-api/notebooks/mlruns/0/models/m-fc044fd86aed4e98908631bf07c22abe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+mlflow_version: 3.16.1
+model_id: m-fc044fd86aed4e98908631bf07c22abe
+model_size_bytes: 181557
+model_uuid: m-fc044fd86aed4e98908631bf07c22abe
+prompts: null
+run_id: 857c035221bb4b19999c165301f10ee3
+utc_time_created: '2026-09-22 17:59:04.854134'
